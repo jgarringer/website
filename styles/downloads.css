@@ -1,0 +1,27 @@
+main{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main h2 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: slategray;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    flex-basis: 40%;
+    margin: .25em;
+}
+main h2 a:hover, main h2 a:focus{
+    background-image: linear-gradient(45deg, aliceblue 10%, slategrey 50%, aliceblue 75%);
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;
+   
+}
+@media only screen and (max-width: 767px){
+    main{
+        flex-direction: column;
+        flex-basis: 90%;
+    }
+}

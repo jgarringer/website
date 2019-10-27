@@ -1,0 +1,10 @@
+main dl{
+    background-color: whitesmoke;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px;
+    flex-basis: 90%;
+}
+main dt{
+    font-size: 120%;
+}

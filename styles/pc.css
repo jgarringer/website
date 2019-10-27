@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main section{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+figure{
+    flex-basis: 30%;
+    padding: 1em;
+    background-color: whitesmoke;
+    display: block;
+    box-shadow: 1px 1px 3px;
+}
+figure h4{
+    margin: 0 0 .25em 0;
+}
+figure img{
+    box-shadow: 2px 2px 5px black;
+    float: left;
+    width: 30%;
+    margin-right: 25px;
+}
+#board{
+    box-shadow: none;
+}
+#second figure{
+    flex-basis: 20%;
+}
+@media only screen and (max-width: 813px){
+    main section{
+        flex-direction: column;
+        margin:0;
+    }
+    main section figure{
+        margin: .5em .25em;
+    }
+}
