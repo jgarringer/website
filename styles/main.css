@@ -106,12 +106,21 @@ aside img{
     max-width: 200px;
     width: 85%;
 }
+#github{
+    margin-top: 1em;
+    border-radius: 10px;
+    
+}
+
 #mail{
+    width: 85%;
+    max-width: 200px;
     color: white;
     text-decoration: none;
     display: block;
     background-color: slategrey;
     padding: .25em;
+    box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
     box-shadow: 2px 2px 3px black;
