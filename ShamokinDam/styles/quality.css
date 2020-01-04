@@ -69,5 +69,35 @@
 .minislide img:nth-child(2){animation-delay:42s;}
 .minislide img:nth-child(1){animation-delay:48s;}
 
+@media only screen and (max-width:991px){
+    .minislide {
+        width: 400px;
+        height: 200px;
+    }
+    
+    .business_container {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #stretch {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 415){
+    .minislide {
+        width: 350px;
+        height: 175px;;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .minislide {
+        width: 200px;
+        height: 150px;
+    }
+}
+
 
 
