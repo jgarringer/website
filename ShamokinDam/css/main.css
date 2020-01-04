@@ -198,6 +198,10 @@ p { line-height: 2; }
 
 .copyright-p { margin-bottom: 0; }
 
+footer{
+    align-self: center;
+}
+
 /* Media Queries */
 @media (min-width: 576px) {
 	.container { width: 100%; }
