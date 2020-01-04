@@ -380,6 +380,9 @@ footer{
         display: flex;
         justify-content: space-around;
     }
+    #mobile_menu a{
+        text-align: center;
+    }
     #mobile_menu ul li{
         padding-left: 2px;
         text-align: center;
@@ -424,7 +427,7 @@ footer{
 
 @media only screen and (max-width:376px){
     html{
-        font-size:50%;
+        font-size:70%;
     }
     
     body{
