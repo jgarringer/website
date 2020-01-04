@@ -425,6 +425,12 @@ footer{
     }
 }
 
+@media only screen and (max-width:761px){
+    .staff_grid{
+        font-size: 60%;
+    }
+}
+
 @media only screen and (max-width:376px){
     html{
         font-size:70%;
@@ -432,6 +438,6 @@ footer{
     
     body{
         font-size:100%;
-        
     }
+    
 }
