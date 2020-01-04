@@ -1,0 +1,20 @@
+article {
+    margin-bottom:5em;
+}
+
+article ul{
+    list-style: none;
+    justify-content: center;
+    display:flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+}
+
+article ul li{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content-div > h2 {
+    text-align: center
+}

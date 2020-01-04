@@ -1,0 +1,102 @@
+#header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+#staff_header {
+    display: block;
+    text-align: center;
+}
+
+#manager {
+    align-content: center;
+    grid-column-start: 2;
+}
+
+#secretary {
+    align-content: center;
+    grid-column-start: 3;
+}
+.staff_grid li {
+    list-style-type: none;
+}
+
+.council_grid {
+    display: grid;
+    grid-column-gap: 5px;
+}
+
+.staff_grid {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 100px 100px;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.bio_container {
+    padding: 0 16px;
+}
+
+.bio_container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bio_container > h2 {
+    text-align: center;
+    padding-top: .25em;
+}
+.title {
+    color: grey;
+    text-align: center;
+}
+
+img {
+    height: 18em;
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+}
+
+@media screen and (max-width: 680px) {
+    .column {
+        align-content: center;
+        width: 75%;
+        display: block;
+    }
+    
+    img {
+        height: 10em;
+    }
+    
+    .card img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    h2 {
+        font-size: 98%;
+    }
+    
+    p {
+        font-size: 98%;
+    }
+    img {
+        height: 15em;
+    }
+}

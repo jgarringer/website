@@ -1,0 +1,28 @@
+#right-column{
+    padding:0;
+}
+
+#ordinance_list{
+    list-style: none;
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #c7c7c7;   
+    opacity: .5;
+}
+
+#ordinance_list li{
+    margin:1em;
+    color: black;
+}
+
+#ordinance_list a:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+
+#animals{
+    margin-top: 2em;
+}

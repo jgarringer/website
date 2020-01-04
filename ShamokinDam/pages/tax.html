@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shamokin Dam Borough</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- tax.css overide stylesheet-->
+    <link rel="stylesheet" href="../styles/tax.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+              <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Left column: logo and menu -->
+            <div class="left-right-container">
+                <!-- Left column: logo and menu -->
+                <div class="blue-bg left-column">
+                    <div class="logo-div text-xs-center">
+                        <a href="../index.html">
+                            <img id="main-logo" src="../images/400_SDBoroughBluex2.png" alt="Logo">
+                        </a>
+                    </div>
+                    <nav id="mobile_menu">
+                        <UL class="blue-bg left-column">
+                            <li class="nav-item">
+                                <a href="../pages/tax.html" class="nav-item-link current">Taxes &amp; Budget</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/about_us.html" class="nav-item-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/quality.html" class="nav-item-link">Quality of Life</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/past_minutes.html" class="nav-item-link">Minutes &amp; Newsletters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/ordinances.html" class="nav-item-link">Ordinances</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../index.html#contact" class="nav-item-link">Contact Us</a>
+                            </li>
+                        </UL>
+                    </nav>
+                    <nav class="main-nav">
+                        <ul class="main-nav-ul">
+                            <li class="nav-item">
+                                <a href="../index.html" class="nav-item-link" id="current">Taxes &amp; Budget</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/about_us.html" class="nav-item-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/quality.html" class="nav-item-link">Quality of Life</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/past_minutes.html" class="nav-item-link">Minutes &amp; Newsletters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/ordinances.html" class="nav-item-link">Ordinances</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../index.html#contact" class="nav-item-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <section>
+                <h1>Local Service Tax</h1>
+                <p>Please read the following forms carefully</p>
+                <ul>
+                    <a href="../TaxForms/LSTAX_INSTRUCTIONS.pdf" target="_blank">
+                        <li>Shamokin Dam Borough Local Service Tax</li>
+                    </a>
+                    <a href="../TaxForms/Report_Form.pdf">
+                        <li>2019 Local Service Tax Report Form</li>
+                    </a>
+                    <a href="../TaxForms/LST_Directions.pdf">
+                        <li>Instructions for Local Service Tax</li>
+                    </a>
+                    <a href="../TaxForms/LST_Exemption_Edited.pdf" target="_blank">
+                        <li>Local Service Tax Exemption Certificate</li>
+                    </a>
+                    <a href="../TaxForms/Local_Service_Tax_Refund_edited.pdf" target="_blank">
+                        <li>Local Service Tax Refund Application</li>
+                    </a>
+                </ul>
+            </section>
+            <div id="budget-container">
+                <p>Choose the Audit/Budget year from the drop down menus below that you would like to view.
+                </p>
+                <section id="budget">
+                    <div>
+                        <h3>Audit</h3>
+                        <form>
+                            <select onchange="location = this.value">
+                                <option>--Select Audit Year--</option>
+                                <option value="../Audit&Budget/Shamokin_Dam_Borough_2018.pdf">2018 Audit</option>
+                                <option value="../Audit&Budget/Shamokin_Dam_Borough_2017.pdf">2017 Audit</option>
+                                <option value="../Audit&Budget/Shamokin_Dam_Borough_2016.pdf">2016 Audit</option>
+                                <option value="../Audit&Budget/Shamokin_Dam_Borough_2015.pdf">2015 Audit</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Budget</h3>
+                        <form>
+                            <select>
+                                <option>--Select Budget Year--</option>
+                                <option value="../Audit&Budget/2019_General_Fund_Budget.pdf">2019 General Fund Budget</option>
+                                <option value="../Audit&Budget/2019_Water_Sewer_Fund_Budget.pdf">2019 Water/Sewer Budget</option>
+                                <option value="../Audit&Budget/2018_General_Fund_Budget.pdf">2018 General Fund Budget</option>
+                                <option value="../Audit&Budget/2018_WaterSewer_Budget.pdf">2018 Water/Sewer Budget</option>
+
+                            </select>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div class="contact_grid">
+                <section id="tax_collector">
+                    <h3>Per Capita Tax Collector</h3>
+                    <ul style="list-style-type: none">
+                        <li>Elected Borough Tax collector Four Year Term</li>
+                        <li>Deann Lockcuff</li>
+                        <li>PO Box 253</li>
+                        <li>Shamokin Dam, PA 17876</li>
+                        <li>Phone: 570-743-7390</li>
+                        <li>Payments can be mailed to PO Box 253, Shamokin Dam. A drop off box for tax payment is located at 26 Chestnut Street, Shamokin Dam, PA 17876</li>
+                    </ul>
+
+                </section>
+                <section id="tax_recovery">
+                    <h3>Delinquent Per Capita Tax Collector</h3>
+                    <p>Statewide Tax Recovery, Inc.<br />
+                        The Woodring Station<br />
+                        100 North Third Street<br />
+                        PO Box 752<br />
+                        Sunbury, PA 17801<br />
+                        Phone: 800-326-9380 or 570-286-8538<br />
+                        <a href="www.statewidetaxrecovery.com" target="_blank">www.statewidetaxrecovery.com</a>
+                    </p>
+                </section>
+                <section id="special_collector">
+                    <h3>Local Service Tax Collector</h3>
+                    <p>LaDawn Leitzel, Special Tax Collector<br />
+                        PO Box 273<br />
+                        Shamokin Dam, PA 17876<br />
+                        Phone: 570-743-7565<br />
+                        Fax: 570-743-4102
+                    </p>
+                </section>
+                <section id="income_collector">
+                    <h3>Earned Income Tax Collector</h3>
+                    <p>Berkheimer Tax Administrator<br />
+                        PO Box 25159<br />
+                        Lehigh Valley, PA 18002<br />
+                        866-701-7206<br />
+                        File and pay online at no additional cost!<br />
+                        <a href="www.hab-inc.com" target="_blank">Website</a>
+                    </p>
+                </section>
+                <section id="delinquent_tax">
+                    <h3>Delinquent Real Estate Tax Collector</h3>
+                    <p>Snyder County Tax Claim Bureau<br />
+                        9 West Market Street, Room#: 108<br />
+                        PO Box 217<br />
+                        Middleburg, PA 17842<br />
+                        Phone: 570-837-4220<br />
+                        Fax: 570-837-4375<br />
+                        Hours: 8:30 am - 4:00 pm
+                    </p>
+                </section>
+            </div>
+
+        </div>
+
+        <footer> &copy; Shamokin Dam 2019 - Home of Lake Augusta & Worlds largest Fabri Dam</footer>
+    </div>
+</body></html>

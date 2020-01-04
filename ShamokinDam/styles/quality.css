@@ -1,0 +1,73 @@
+#stretch-parent{
+    display: flex;
+    justify-content: center;
+}
+#stretch{
+    height: auto;
+    width:100%;
+}
+
+#payment_button {
+    margin-bottom: 1em;
+}
+
+#payment_button:hover {
+    background-color: blue;
+}
+
+#payment_button a:hover {
+    color: white;
+}
+
+#park_info {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+
+.minislide {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.minislide img {
+    position: absolute;
+    animation: move-minislide 50s infinite;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+}
+
+.business_container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.business_container img {
+    padding: 5px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#business_intro {
+    text-align: center;
+}
+
+@keyframes move-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.minislide img:nth-child(9){animation-delay:0s;}
+.minislide img:nth-child(8){animation-delay:6s;}
+.minislide img:nth-child(7){animation-delay:12s;}
+.minislide img:nth-child(6){animation-delay:18s;}
+.minislide img:nth-child(5){animation-delay:24s;}
+.minislide img:nth-child(4){animation-delay:30s;}
+.minislide img:nth-child(3){animation-delay:36s;}
+.minislide img:nth-child(2){animation-delay:42s;}
+.minislide img:nth-child(1){animation-delay:48s;}
+
+
+
