@@ -350,7 +350,7 @@ footer{
 	.nav-item { font-size: 1.5rem; }
 }
 /* Adding in css media */
-@media only screen and (max-width: 1025px){
+@media only screen and (max-width: 1050px){
     #main-logo{
         width: 75%;
         height: auto;
